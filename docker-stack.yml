@@ -6,4 +6,6 @@ services:
     image: viswanathkasi/dummy
     ports:
       - "8081:3000"
+    deploy:
+      replicas: 3
 ...
