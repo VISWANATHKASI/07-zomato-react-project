@@ -1,1 +1,9 @@
+---
+version: '3.8'
 
+services:
+  node:
+    image: viswanathkasi/dummy
+    ports:
+      - "8081:3000"
+...
