@@ -5,5 +5,5 @@ services:
   node:
     build: .
     ports:
-      - "8081:3000"
+      - "81:3000"
 ...
