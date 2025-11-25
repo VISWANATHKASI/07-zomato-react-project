@@ -3,9 +3,9 @@ version: '3.8'
 
 services:
   node:
-    image: viswanathkasi/dummy
+    image: viswanathkasi/viswanathkasi/zomatoreact
     ports:
-      - "8081:3000"
+      - "89:3000"
     deploy:
-      replicas: 1
+      replicas: 5
 ...
