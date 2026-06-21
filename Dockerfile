@@ -2,6 +2,7 @@ FROM node:22-alpine AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
+# Use --production (or --omit=dev) when the container only runs the application and does not need build-time dependencies.
 COPY . .
 RUN npm run build
 
